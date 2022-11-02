@@ -1,0 +1,1 @@
+power(N,K,R):- K1 is K-1,power(N,K1,R1),R is R1*N.
