@@ -1,0 +1,10 @@
+elephant(appu).
+elephant(tappu).
+mammal(X):-elephant(X).
+vertibrate(X):-mammal(X).
+herbivore(Y):-elephant(Y).
+eats(X,grass):-elephant(X).
+have(Y,spinalcord):-vertibrate(Y).
+mascot_of_asian_games(appu).
+stand(X):-vertibrate(X).
+

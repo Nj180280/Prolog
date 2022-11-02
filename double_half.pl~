@@ -1,0 +1,7 @@
+doub_half:-
+    write("enter any number: "),nl,
+    read(N),nl,
+    Double is N*2,
+    Half is Ndiv2,
+    write("double is:",write(Double),nl,
+    write("half is:",write(Half),nl.

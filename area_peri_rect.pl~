@@ -1,0 +1,11 @@
+rectangle:-
+    write("enter length"),
+    read(L),
+    write("enter breadth"),
+    read(B),
+    Perimeter is 2*(L+B),
+    Area is L*B,
+    write("perimeter is"),
+    write(Perimeter),nl,
+    write("area is"),
+    write(Area),nl.

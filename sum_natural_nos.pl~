@@ -1,0 +1,7 @@
+summation(0,0).
+summation(1,1).
+summation(N,Ans):-
+    N>1,
+    N1 is N-1,
+    summation(N1,V),
+    Ans is N+N1.
