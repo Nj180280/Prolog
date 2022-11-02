@@ -1,0 +1,4 @@
+size1([],0).
+size1([_|T],N):-
+    size1(T,N1),
+    N is N1+1.
